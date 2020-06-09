@@ -1,35 +1,39 @@
-# JessiLiz.github.io
-Galeria de fractales 
-liz
+# Galeria de fractales 
+Jessika Lizzeth Santos Lopez 
+
+### Conjunto de Newton:
+Para este fractal la función utilizada es *f(z)=z^4-5z^2-1. Sus raices son 
+![Nombre de la imagenl](https://raw.githubusercontent.com/JessiLiz/JessiLiz.github.io/master/newton.png)
 ````
 import matplotlib.pyplot as plt
 from PIL import Image
 imgx=600
-imgy=600
+imgy=500
 image=Image.new("RGB",(imgx,imgy))
-image.putpixel((100,100),(255,255,255))
-xa=-2
-xb=2
-ya=-2
-yb=2
-maxit=30
+xa=-1
+xb=1
+ya=-1
+yb=1
+maxit=14
+h=1e-6
+eps=1e-3
 def f(z):
-    return z**3+complex(0.2,0.3)
-
+    return z**4-5*z**2-1
 for y in range (imgy):
     zy=y*(yb-ya)/(imgy-1)+ya
     for x in range (imgx):
         zx=x*(xb-xa)/(imgx-1)+xa
         z=complex(zx,zy)
         for i in range (maxit):
-            z0=f(z)
-            if abs(z)>1000:
+            dz=(f(z+complex(h,h))-f(z))/complex(h,h)
+            z0=z-f(z)/dz
+            if abs (z0-z)<eps:
                 break
             z=z0
-            r=i*8
-            g=i*8
-            b=i*8
+            r=i*12
+            g=i*10
+            b=i*15
             image.putpixel((x,y),(r,g,b))
 image
 ````
-![Nombre de la imagenl](https://raw.githubusercontent.com/JessiLiz/JessiLiz.github.io/master/Julia1.png)
+

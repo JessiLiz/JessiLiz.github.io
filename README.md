@@ -1,4 +1,3 @@
-
 # Galeria de fractales 
 Jessika Lizzeth Santos Lopez 
 

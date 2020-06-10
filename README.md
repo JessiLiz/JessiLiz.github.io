@@ -4,7 +4,7 @@ Jessika Lizzeth Santos Lopez
 ### Conjunto de Newton:
 Para este fractal la función utilizada es *f(z)=z^4-5z^2-1. Sus raices son 
 ![Nombre de la imagenl](https://raw.githubusercontent.com/JessiLiz/JessiLiz.github.io/master/newton.png)
-## Algoritmo:
+## Algoritmo usual:
 ````
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -37,4 +37,5 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ````
+Para este fractal la función utilizada es *f(z)=z^4-5z^2-1. Sus raices son 
 

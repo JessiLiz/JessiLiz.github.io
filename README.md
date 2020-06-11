@@ -80,17 +80,17 @@ image
 ## Sistemas interados de funciones:
 * Este fractal interado se llama Koch-Snowflake.
 
-![Fractal Julia 1](Julia_1.png)
+![Fractal iterado 1](konk.jpeg)
 
-* Este fractal interado se llama Koch-Snowflake.
+* Este fractal interado se llama Rings.
 
-![Fractal Julia 2](Julia2.png)
+![Fractal iterado 2](Koch Snowflake.jpeg)
 
-* Este fractal interado se llama Koch-Snowflake.
-![Fractal Julia 3](Julia3.png)
+* Este fractal interado se llama Siepinski-Sieve.
+![Fractal iterado 3](serpinski.jpg)
 
-* Este fractal interado se llama Koch-Snowflake.
-![Fractal Julia 4](Julia4.png)
+* Este fractal interado se llama Crystal.
+![Fractal iterado 4](crystal.jpeg)
 
  [Algoritmo interactivo para fractales de Newton](Interact_Newton.html)
 

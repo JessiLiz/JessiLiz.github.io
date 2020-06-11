@@ -184,6 +184,7 @@ main(iterations, axiom, rules, angle)
 
 ## Herramienta interactiva para el algoritmo de los fractales de Newton:
 
-# [Algoritmo interactivo para fractales de Newton](Interact_Newton.html)
+### [Algoritmo interactivo para fractales de Newton](Interact_Newton.html)
 
 ## Anexo de documentación de la experiencia 
+### [Documentación](Documentación.ipynb)

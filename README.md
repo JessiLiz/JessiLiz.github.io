@@ -60,21 +60,36 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ````
-## Conjunto de Julia:
-* Para este fractal la función utilizada es f(z)=z^5+3z^3+complex(2,1).
+## Conjuntos de Julia:
+* Para este fractal de Julia la función utilizada es f(z)=z^5+3z^3+complex(2,1).
 
 ![Fractal Julia 1](Julia_1.png)
 
-* Para este fractal la función utilizada es f(z)=z^3+3z^2-complex(1.88,1.333).
+* Para este fractal de Julia la función utilizada es f(z)=z^3+3z^2-complex(1.88,1.333).
 
 ![Fractal Julia 2](Julia2.png)
 
-* Para este fractal la función utilizada es f(z)=z^5+complex(0.5,0.9).
+* Para este fractal de Julia la función utilizada es f(z)=z^5+complex(0.5,0.9).
 
 ![Fractal Julia 3](Julia3.png)
 
-* Para este fractal la función utilizada es f(z)=z^5-1+complex(0.01,0.09).
+* Para este fractal de Julia la función utilizada es f(z)=z^5-1+complex(0.01,0.09).
 
+![Fractal Julia 4](Julia4.png)
+
+## Sistemas interados de funciones:
+* Este fractal interado se llama Koch-Snowflake.
+
+![Fractal Julia 1](Julia_1.png)
+
+* Este fractal interado se llama Koch-Snowflake.
+
+![Fractal Julia 2](Julia2.png)
+
+* Este fractal interado se llama Koch-Snowflake.
+![Fractal Julia 3](Julia3.png)
+
+* Este fractal interado se llama Koch-Snowflake.
 ![Fractal Julia 4](Julia4.png)
 
  [Algoritmo interactivo para fractales de Newton](Interact_Newton.html)

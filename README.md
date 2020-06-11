@@ -3,7 +3,7 @@ Jessika Lizzeth Santos Lopez
 
 ## Conjunto de Newton:
 ### Para este fractal la función utilizada es f(z)=z^4-5z^2-1. 
-#### Sus raices son 4: 
+#### Sus raices son 4: (-2.28-0i), (0-0.44i), (0+0.44i), (2.28-0i)
 
 ![Fractal 1](newton.png)
 
@@ -23,7 +23,8 @@ Jessika Lizzeth Santos Lopez
 ![Fractal 4](Newton4.png)
 
 ### Para este fractal la función utilizada es f(z)=(z^5-3z^4-5z-66)/(100).
-#### Sus raices son 4: 
+#### Sus raices son 5: (-1.45-1.21i), (-1.45+1.21i), (1.19-1.95i), (1.19+1.95i), (3.54-0i)
+
 ![Fractal 5](Newton5.png)
 
 ## Algoritmo usual:

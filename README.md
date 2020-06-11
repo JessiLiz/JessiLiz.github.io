@@ -1,21 +1,24 @@
-<style TYPE="text/css"> code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;} </style> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']], skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry } }); MathJax.Hub.Queue(function() { var all = MathJax.Hub.getAllJax(), i; for(i = 0; i < all.length; i += 1) { all[i].SourceElement().parentNode.className += ' has-jax'; } }); </script> 
 # Galeria de fractales 
 Jessika Lizzeth Santos Lopez 
 
 #### Conjunto de Newton:
-*Para este fractal la función utilizada es $f(z)=z^4-5z^2-1$. Sus raices son 
+**Para este fractal la función utilizada es f(z)=z^4-5z^2-1. 
+Sus raices son 4: 
 
 ![Nombre de la imagenl](newton.png)
 
-*Para este fractal la función utilizada es f(z)=z^3+z^2-6. Sus raices son
+**Para este fractal la función utilizada es f(z)=z^3+z^2-6. 
+Sus raices son
 
 ![Nombre de la imagenl](Newton2.png)
 
-*Para este fractal la función utilizada es f(z)=z^5+6z^3-6. Sus raices son
+**Para este fractal la función utilizada es f(z)=z^5+6z^3-6. 
+Sus raices son
 
 ![Nombre de la imagenl](Newton3.png)
 
-*Para este fractal la función utilizada es f(z)=z^5+5z^4-3z^3-5z^2+3z-8. Sus raices son
+**Para este fractal la función utilizada es f(z)=z^5+5z^4-3z^3-5z^2+3z-8. 
+Sus raices son
 
 ![Nombre de la imagenl](Newton4.png)
 

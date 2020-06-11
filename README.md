@@ -3,27 +3,27 @@ Jessika Lizzeth Santos Lopez
 
 ## Conjunto de Newton:
 * Para este fractal la función utilizada es f(z)=z^4-5z^2-1. 
-Sus raices complejas son 4: (-2.28-0i), (0-0.44i), (0+0.44i), (2.28-0i).
+** Sus raices complejas son 4: (-2.28-0i), (0-0.44i), (0+0.44i), (2.28-0i).
 
 ![Fractal 1](newton.png)
 
 * Para este fractal la función utilizada es f(z)=z^3+z^2-6. 
-Sus raices complejas son 3: (-1.27-1.51i), (-1.27+1.51i), (1.54+0i).
+** Sus raices complejas son 3: (-1.27-1.51i), (-1.27+1.51i), (1.54+0i).
 
 ![Fractal 2](Newton2.png)
 
 * Para este fractal la función utilizada es f(z)=z^5+6z^3-6. 
-Sus raices complejas son 5: (-0.56-0.85i), (-0.56+0.85i), (0.08-2.46i), (0.08+2.46i), (0.95+0i).
+** Sus raices complejas son 5: (-0.56-0.85i), (-0.56+0.85i), (0.08-2.46i), (0.08+2.46i), (0.95+0i).
 
 ![Fractal 3](Newton3.png)
 
 * Para este fractal la función utilizada es f(z)=z^5+5z^4-3z^3-5z^2+3z-8. 
-Sus raices complejas son 5: (-5.36+0i), (-1.4+0i), (0.21-0.87i), (0.21+0.87i), (1.33+0i).
+** Sus raices complejas son 5: (-5.36+0i), (-1.4+0i), (0.21-0.87i), (0.21+0.87i), (1.33+0i).
 
 ![Fractal 4](Newton4.png)
 
 * Para este fractal la función utilizada es f(z)=(z^5-3z^4-5z-66)/(100).
-Sus raices complejas son 5: (-1.45-1.21i), (-1.45+1.21i), (1.19-1.95i), (1.19+1.95i), (3.54-0i).
+* Sus raices complejas son 5: (-1.45-1.21i), (-1.45+1.21i), (1.19-1.95i), (1.19+1.95i), (3.54-0i).
 
 ![Fractal 5](Newton5.png)
 

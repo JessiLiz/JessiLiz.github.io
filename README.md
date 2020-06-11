@@ -1,19 +1,27 @@
 # Galeria de fractales 
 Jessika Lizzeth Santos Lopez 
 
-### Conjunto de Newton:
-**Para este fractal la función utilizada es f(z)=z^4-5z^2-1. Sus raices son 
+#### Conjunto de Newton:
+*Para este fractal la función utilizada es f(z)=z^4-5z^2-1. Sus raices son 
 
 ![Nombre de la imagenl](newton.png)
 
-**Para este fractal la función utilizada es *f(z)=z^4-5z^2-1. Sus raices son
+*Para este fractal la función utilizada es f(z)=z^3+z^2-6. Sus raices son
 
 ![Nombre de la imagenl](Newton2.png)
 
+*Para este fractal la función utilizada es f(z)=z^5+6z^3-6. Sus raices son
+
 ![Nombre de la imagenl](Newton3.png)
+
+*Para este fractal la función utilizada es f(z)=z^5+5z^4-3z^3-5z^2+3z-8. Sus raices son
 
 ![Nombre de la imagenl](Newton4.png)
 
+*Para este fractal la función utilizada es f(z)=(z^5-3z^4-5z-66)/(100). Sus raices son
+![Nombre de la imagenl](Newton5.png)
+
+iframe  src = "https://elc.github.io/blog/iframes/ode-python/foxes-rabbits-iframe.html" > </ iframe >
 ## Algoritmo usual:
 ````
 import matplotlib.pyplot as plt

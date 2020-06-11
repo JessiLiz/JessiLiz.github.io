@@ -55,5 +55,5 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ````
- 
+ [Algoritmo interactivo para fractales de Newton](Interact_Newton.html)
 

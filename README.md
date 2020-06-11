@@ -10,21 +10,21 @@ Jessika Lizzeth Santos Lopez
 ### Para este fractal la función utilizada es f(z)=z^3+z^2-6. 
 #### Sus raices son 4: 
 
-![Nombre de la imagenl](Newton2.png)
+![Fractal 2](Newton2.png)
 
 ### Para este fractal la función utilizada es f(z)=z^5+6z^3-6. 
 #### Sus raices son 4: 
 
-![Nombre de la imagenl](Newton3.png)
+![Fractal 3](Newton3.png)
 
 ### Para este fractal la función utilizada es f(z)=z^5+5z^4-3z^3-5z^2+3z-8. 
 #### Sus raices son 4: 
 
-![Nombre de la imagenl](Newton4.png)
+![Fractal 4](Newton4.png)
 
 ### Para este fractal la función utilizada es f(z)=(z^5-3z^4-5z-66)/(100).
 #### Sus raices son 4: 
-![Nombre de la imagenl](Newton5.png)
+![Fractal 5](Newton5.png)
 
 ## Algoritmo usual:
 ````

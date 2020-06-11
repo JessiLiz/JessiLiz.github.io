@@ -186,3 +186,4 @@ main(iterations, axiom, rules, angle)
 
 # [Algoritmo interactivo para fractales de Newton](Interact_Newton.html)
 
+## Anexo de documentación de la experiencia 

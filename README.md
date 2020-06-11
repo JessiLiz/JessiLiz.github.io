@@ -3,9 +3,9 @@ Jessika Lizzeth Santos Lopez
 
 ### Conjunto de Newton:
 *Para este fractal la función utilizada es f(z)=z^4-5z^2-1. Sus raices son 
-![Nombre de la imagenl](https://raw.githubusercontent.com/JessiLiz/JessiLiz.github.io/master/newton.png)
+![Nombre de la imagenl](newton.png)
 *Para este fractal la función utilizada es *f(z)=z^4-5z^2-1. Sus raices son
-![Nombre de la imagenl](https://github.com/JessiLiz/JessiLiz.github.io/blob/master/Newton2.png)
+![Nombre de la imagenl](Newton2.png)
 ![Nombre de la imagenl](Newton3.png)
 ![Nombre de la imagenl](Newton4.png)
 ## Algoritmo usual:

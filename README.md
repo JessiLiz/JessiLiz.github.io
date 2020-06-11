@@ -60,6 +60,8 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ````
+
+
 ## Conjuntos de Julia:
 * Para este fractal de Julia la función utilizada es f(z)=z^5+3z^3+complex(2,1).
 
@@ -77,6 +79,41 @@ image
 
 ![Fractal Julia 4](Julia4.png)
 
+
+
+## Algoritmo usual para fractales de Julia:
+````
+import matplotlib.pyplot as plt
+from PIL import Image
+imgx=400
+imgy=400
+image=Image.new("RGB",(imgx,imgy))
+image.putpixel((100,100),(255,255,255))
+xa=-2
+xb=2
+ya=-2
+yb=2
+maxit=30
+def f(z):
+    return z**5+3*z**3+complex(2,1)
+
+for y in range (imgy):
+    zy=y*(yb-ya)/(imgy-1)+ya
+    for x in range (imgx):
+        zx=x*(xb-xa)/(imgx-1)+xa
+        z=complex(zx,zy)
+        for i in range (maxit):
+            z0=f(z)
+            if abs(z)>1000:
+                break
+            z=z0
+            r=i*10
+            g=i*50
+            b=i*90
+            image.putpixel((x,y),(r,g,b))
+image
+````
+
 ## Sistemas interados de funciones:
 * Este fractal interado se llama Koch-Snowflake con una cantidad de 3 iteraciones.
 ![Fractal iterado 1](konk.jpeg)
@@ -90,5 +127,62 @@ image
 * Este fractal interado se llama Crystal con una cantidad de 3 iteraciones.
 ![Fractal iterado 4](crystal.jpeg)
 
- [Algoritmo interactivo para fractales de Newton](Interact_Newton.html)
+## Algoritmo usual para fractales iterativos:
+````
+import turtle
+##Siepinski-Sieve
+def create_l_system(iters, axiom, rules):
+    start_string = axiom
+    if iters == 0:
+        return axiom
+    end_string = ""
+    for _ in range(iters):
+        end_string = "".join(rules[i] if i in rules else i for i in start_string)
+        start_string = end_string
+
+    return end_string
+
+
+def draw_l_system(t, instructions, angle, distance):
+    for cmd in instructions:
+        if cmd == 'F':
+            t.forward(distance)
+        elif cmd == '+':
+            t.right(angle)
+        elif cmd == '-':
+            t.left(angle)
+
+
+def main(iterations, axiom, rules, angle, length=8, size=2, y_offset=-20,
+        x_offset=0, offset_angle=0, width=450, height=450):
+
+    inst = create_l_system(iterations, axiom, rules)
+
+    t = turtle.Turtle()
+    wn = turtle.Screen()
+    wn.setup(width, height)
+
+    t.up()
+    t.backward(-x_offset)
+    t.left(90)
+    t.backward(-y_offset)
+    t.left(offset_angle)
+    t.down()
+    t.speed(0)
+    t.pensize(size)
+    draw_l_system(t, inst, angle, length)
+    t.hideturtle()
+
+    wn.exitonclick()
+axiom = "FXF--FF--FF"
+rules = {"F":"FF", "X":"--FXF++FXF++FXF--"}
+iterations = 4
+angle = 60
+main(iterations, axiom, rules, angle)
+
+````
+
+## Herramienta interactiva para el algoritmo de los fractales de Newton:
+
+# [Algoritmo interactivo para fractales de Newton](Interact_Newton.html)
 

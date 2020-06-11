@@ -13,12 +13,12 @@ Jessika Lizzeth Santos Lopez
 ![Fractal 2](Newton2.png)
 
 ### Para este fractal la función utilizada es f(z)=z^5+6z^3-6. 
-#### Sus raices complejas son 4: 
+#### Sus raices complejas son 5: (-0.56-0.85i), (-0.56+0.85i), (0.08-2.46i), (0.08+2.46i), (0.95+0i).
 
 ![Fractal 3](Newton3.png)
 
 ### Para este fractal la función utilizada es f(z)=z^5+5z^4-3z^3-5z^2+3z-8. 
-#### Sus raices complejas son 4: 
+#### Sus raices complejas son 5: (-5.36+0i), (-1.4+0i), (0.21-0.87i), (0.21+0.87i), (1.33+0i).
 
 ![Fractal 4](Newton4.png)
 

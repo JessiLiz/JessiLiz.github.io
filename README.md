@@ -5,7 +5,7 @@ Jessika Lizzeth Santos Lopez
 ### Para este fractal la función utilizada es f(z)=z^4-5z^2-1. 
 #### Sus raices son 4: 
 
-![Nombre de la imagenl](newton.png)
+![Fractal 1](newton.png)
 
 ### Para este fractal la función utilizada es f(z)=z^3+z^2-6. 
 #### Sus raices son 4: 
